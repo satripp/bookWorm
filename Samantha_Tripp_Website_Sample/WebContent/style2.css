@@ -1,0 +1,98 @@
+.toolbar {
+  padding: 10px;
+  background: white;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+.bookworm{
+	float:left;
+}
+button {
+  background-color: lightgray;
+  font-family: serif;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.middle{
+	float:left;
+}
+.right{
+	float:left;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.resultsClass{
+	margin:40px;
+	margin-top: 0px;
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+}
+ul .column {
+  float: left;
+  width: 30%;
+}
+/* Clear floats after the columns */
+ul .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.toolbar> div{
+	display: inline-block;
+	padding: 10px;
+	vertical-align:middle;
+	text-align: left;
+	width:45%;
+}
+.checked {
+  color: orange;
+}
+.toolbar>form>div{
+	display: inline-block;
+	padding: 5px 5px;
+	vertical-align:middle;
+	text-align: left;
+	width:100%;
+}
+.resultclass{
+	padding:40px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Old Standard TT', serif;
+    background-color: white;
+    color:black;
+    line-height: 20px;
+    margin: 20px;
+}
+ul{
+	list-style-type: none;
+	padding: 100;
+}
+ul li{
+	border-top: 1px dotted gray; 
+	border-right-style: none;
+	border-left-style: none;
+	line-height: 30 px;
+	padding:15px;
+	margin-top: 5px;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+}
